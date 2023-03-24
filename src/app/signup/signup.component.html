@@ -1,0 +1,22 @@
+<!-- <p>signup works!</p> -->
+<div class="start">
+    <h2>Create New Account</h2>
+  <div class="form-group">
+    <label for="username">Username:</label>
+    <input type="text" id="username" [(ngModel)]="username" required>
+  </div>
+  <div class="form-group">
+    <label for="email">Email:</label>
+    <input type="email" id="email" [(ngModel)]="email" required>
+  </div>
+  <div class="form-group">
+    <label for="password">Password:</label>
+    <input type="password" id="password" [(ngModel)]="password" required>
+  </div>
+  <div class="form-group">
+    <label for="confirm-password">Confirm Password:</label>
+    <input type="password" id="confirm-password" [(ngModel)]="confirmPassword" required>
+  </div>
+  <button (click)="signup()">Sign Up</button>
+  <!-- <button (click)="header()">Home</button> -->
+  </div>

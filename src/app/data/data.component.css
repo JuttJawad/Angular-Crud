@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+  }
+  
+  .r1, .r2 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .card:hover {
+    background-color: #f9f9f9;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  button:active {
+    background-color: #3e8e41;
+    transform: translateY(1px);
+  }
+  

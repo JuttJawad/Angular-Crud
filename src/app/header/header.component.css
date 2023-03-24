@@ -1,0 +1,38 @@
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:lightblue;
+  }
+  
+  .first-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .col1 {
+    flex: 1;
+  }
+  
+  .col2 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  button {
+    /* margin-bottom: 50%; */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0069d9;
+  }
+  
